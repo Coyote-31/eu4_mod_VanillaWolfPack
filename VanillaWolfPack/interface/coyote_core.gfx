@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	#Global offset for all editboxes
+	cursor_offset = { -5 -4 }
+	
+	##c Correction du mod : vd_the_grand_exhibition
+	spriteType = {
+		name = "GFX_lobby_left_bg_coyote"
+		texturefile = "gfx//interface//lobby_left_bg_coyote.dds"
+		noOfFrames = 1		
+	}
+	
+	##c Correction du mod : vd_the_grand_exhibition
+	spriteType = {
+		name = "GFX_events_BG_top.dds"
+		texturefile = "gfx//interface//events_BG_top_coyote.dds"
+		noOfFrames = 1		
+	}
+	
+}
