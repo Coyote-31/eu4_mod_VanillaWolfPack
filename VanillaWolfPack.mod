@@ -1,5 +1,5 @@
 name="Vanilla Wolf Pack (Dev)"
-path="mod\VanillaWolfPack"
+path="mod/VanillaWolfPack"
 dependencies={
 	"Better UI 2"
 	"Vanilla'd - The Grand Exhibition 1/6"
