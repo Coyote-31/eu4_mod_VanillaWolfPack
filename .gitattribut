@@ -1,29 +1,32 @@
 # Settings for Git. For more information see :
 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes
 
-# Directories and files ignored in release archives :
+## Directories and files ignored in release archives :
 # <dir/file> export-ignore
 /.gitattribut export-ignore
-/.git
 
-
-# Define non-text files for git diff :
-
-# *.min.* -diff binary minified
-*.svg -diff binary
-*.jpg  -diff binary
-*.jpeg -diff binary
-*.png -diff binary
-
-# FIX CRLF always when developer has not set
+## FIX CRLF always when developer has not set
 # Linux/Mac: git config --global core.autocrlf input
 # Windows: git config --global core.autocrlf true
 # Auto detect text files and perform LF normalization
 * text=auto
 * eol=lf
 
-*.npmignore text
-*.md text
+## Define non-text files for git diff :
+# *.min.* -diff binary minified
+*.svg -diff binary
+*.jpg  -diff binary
+*.jpeg -diff binary
+*.png -diff binary
+*.tga -diff binary
+*.dds -diff binary
+
+## Define text files for git diff :
 .gitattributes text
 .gitignore text
-LICENSE text
+*.md text
+*.fnt text
+*.mod text
+*.gfx text
+*.gui text
+*.yml text
