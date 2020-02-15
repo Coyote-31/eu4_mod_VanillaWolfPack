@@ -1,4 +1,4 @@
-name="Vanilla Wolf Pack (Dev)"
+name="Vanilla Wolf Pack"
 path="mod/VanillaWolfPack"
 dependencies={
 	"Better UI 2"
