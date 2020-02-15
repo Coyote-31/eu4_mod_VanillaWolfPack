@@ -3,7 +3,7 @@
 
 ## Directories and files ignored in release archives :
 # <dir/file> export-ignore
-/.gitattribut export-ignore
+.gitattribut export-ignore
 
 ## FIX CRLF always when developer has not set
 # Linux/Mac: git config --global core.autocrlf input
