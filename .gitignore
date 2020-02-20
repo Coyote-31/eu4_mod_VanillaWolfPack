@@ -1,0 +1,5 @@
+## gitignore - Specifies intentionally untracked files to ignore
+# More info at : https://git-scm.com/docs/gitignore
+
+# Releases folder :
+/[Rr]elease*/
